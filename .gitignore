@@ -1,0 +1,16 @@
+﻿.conda/
+.venv/
+.vscode/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+data/
+runs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.log

@@ -1,0 +1,3 @@
+﻿# Local development tools only. Training dependencies will be selected after the remote GPU environment is confirmed.
+pytest
+ruff

@@ -1,0 +1,41 @@
+{
+  "input_sha256": {
+    "seconds": "119c211a5e94167546bb70120870f8fe6d0b3ed51e16e66b4ad219864433ad30",
+    "gaps": "3be8c2878120052ce5c2d24ee700a44db28d0a08d047c0f433397a2ebd50601e",
+    "trips": "4a828d09660b62aa3b802168f9a30bdc5eff5fcc03bfa2ecb3d1af2e0add0049",
+    "events": "6e99e4708328f417acb70edc65e5dca03bf2bc5ad9aabf21f277c767fc936ae6",
+    "sites": "d25b2a9cd4643a0d95cf5fe512010e26af67c7eceaa588c82053936e1ef8c094"
+  },
+  "summary": {
+    "primary_records": 56,
+    "candidate_runs": 295,
+    "six_site_mapped_runs": 199,
+    "motion_reconstructed_runs": 45,
+    "all_seconds": 236658,
+    "raw_samples": 315619,
+    "original_missing_seconds": 169943,
+    "distance_pair_available_seconds": 179509,
+    "six_site_model_seconds": 173064,
+    "local_anonymous_pair_seconds": 6493,
+    "unknown_distance_pair_seconds": 57149,
+    "speed_model_imputed_seconds": 120528,
+    "short_gap_interpolated_seconds": 206,
+    "motion_reconstructed_at_second_count": 408,
+    "conditional_terminal_holds": 151,
+    "direction_routes": {
+      "D0": [
+        "C0",
+        "C2",
+        "C4",
+        "C5"
+      ],
+      "D1": [
+        "C5",
+        "C3",
+        "C1",
+        "C0"
+      ]
+    },
+    "physical_truth_confirmed": false
+  }
+}

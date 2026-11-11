@@ -1,7 +1,12 @@
-﻿.conda/
-.venv/
-.vscode/
 __pycache__/
+*.py[cod]
+.venv/
+outputs/
+*.csv
+*.xlsx
+*.zip
+.conda/
+.vscode/
 .pytest_cache/
 .ruff_cache/
 .ipynb_checkpoints/

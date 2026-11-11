@@ -1,0 +1,13 @@
+﻿seed: 42
+data:
+  manifest_path: "REPLACE_WITH_DATASET_MANIFEST"
+model:
+  name: "action_conditioned_rail_world_model"
+  history_frames: 4
+  prediction_horizon: 5
+training:
+  batch_size: 2
+  epochs: 1
+  learning_rate: 0.0001
+output:
+  run_root: "REPLACE_WITH_CLUSTER_RUN_DIRECTORY"

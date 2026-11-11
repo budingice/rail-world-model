@@ -5,3 +5,17 @@ outputs/
 *.csv
 *.xlsx
 *.zip
+.conda/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+data/
+runs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.log

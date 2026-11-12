@@ -1,0 +1,43 @@
+{
+  "input_dir": "D:\\Code\\AutoTrain\\Dataset\\地铁环线运行数据",
+  "pattern": "all_11_*.xlsx",
+  "output_dir": "outputs",
+  "mapping": {
+    "time": "0",
+    "enabled": "1",
+    "head_link": "2",
+    "speed": "3",
+    "speed_limit": "4",
+    "traction": "5",
+    "brake": "6",
+    "ato": "7",
+    "target_speed": "8",
+    "gradient": "9"
+  },
+  "mapping_status": "confirmed_by_user",
+  "speed_to_mps": 0.1,
+  "speed_limit_target_unit": "raw_unit_not_separately_confirmed",
+  "gradient_unit": "per_mille",
+  "date_policy": "filename_month_day_only_year_unknown",
+  "time_policy": "integer_seconds_no_subsecond_reconstruction",
+  "integration": "trapezoid_on_observed_bin_means_at_bin_centers_proxy_only",
+  "missing_second_policy": "split_no_interpolation",
+  "interpolation_limit_seconds": 0,
+  "candidate_parameters": {
+    "speed_max_mps": 35,
+    "ato_min_percent": 0,
+    "ato_max_percent": 100,
+    "stop_enter_mps": 0.0833333333,
+    "stop_exit_mps": 0.2222222222,
+    "stop_min_duration_s": 3,
+    "smoothing_window_s": 7,
+    "smoothing_polyorder": 2,
+    "acceleration_review_mps2": 2.0,
+    "nominal_samples_per_second_for_count_flag_only": 5
+  },
+  "vehicle_id": null,
+  "direction": null,
+  "station_table": null,
+  "lap_length_m": null,
+  "intended_use": "unknown_export_offline_and_causal_features_separately"
+}

@@ -19,3 +19,6 @@ wandb/
 *.pth
 *.ckpt
 *.log
+
+# Fixed station-distance input for the 13-column export
+!data_processing/exports/speed_circle/source/experiments/speed_distance_compact/directional_station_distances.csv
